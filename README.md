@@ -9,13 +9,13 @@ Este dojo foi baseado em um desafio lançado!
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
 
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/rodrigovalentim/Coding-Dojo-nuvem-cinza">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/rodrigovalentim/Dojo-Coding-nuvem-cinza">
 
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/rodrigovalentim/Coding-Dojo-nuvem-cinza">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/rodrigovalentim/Dojo-Coding-nuvem-cinza">
 
-  <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/rodrigovalentim/Coding-Dojo-nuvem-cinza">
+  <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/rodrigovalentim/Dojo-Coding-nuvem-cinza">
 
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/rodrigovalentim/Coding-Dojo-nuvem-cinza">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/rodrigovalentim/Dojo-Coding-nuvem-cinza">
 
 </div>
 
