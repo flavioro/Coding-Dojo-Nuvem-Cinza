@@ -1,0 +1,12 @@
+backend/yarn-error.log
+backend/yarn.lock
+backend/node_modules/
+backend/build/
+backend/.env
+backend/.DS_Store
+frontend/yarn.lock
+frontend/build
+frontend/.DS_Store
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
