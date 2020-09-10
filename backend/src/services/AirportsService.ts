@@ -95,7 +95,10 @@ class AirportsService {
               calculateArea[row][col] === `c${count}`
             ) {
               // if (count <= airports) {
-              counts.push(count);
+              if (!counts.includes(count)) {
+                counts.push(count);
+              }
+
               // }
             }
             if (row === lines - 1 && col === columns - 1) {
