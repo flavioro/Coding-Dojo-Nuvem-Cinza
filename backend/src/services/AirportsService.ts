@@ -11,6 +11,7 @@ class AirportsService {
     mapArea: string[][],
     lines: number,
     columns: number,
+    airports: number,
   ): Response {
     try {
       let count = 0;
@@ -24,6 +25,7 @@ class AirportsService {
       /**
        * Loop até localiar todos os aeroportos
        */
+
       while (allAirPorts === false) {
         for (let row = 0; row < lines; row += 1) {
           for (let column = 0; column < columns; column += 1) {
@@ -94,12 +96,16 @@ class AirportsService {
               mapArea[row][col] === 'A' &&
               calculateArea[row][col] === `c${count}`
             ) {
-              // if (count <= airports) {
               if (!counts.includes(count)) {
-                counts.push(count);
+                /**
+                 * Rotina para validar quantidade máximo
+                 * de aeroportos encontrados, impedindo divergencia
+                 * na quantidade de dias máxima
+                 */
+                if (counts.length <= airports) {
+                  counts.push(count);
+                }
               }
-
-              // }
             }
             if (row === lines - 1 && col === columns - 1) {
               /**
@@ -116,10 +122,6 @@ class AirportsService {
       console.log('Localizados', counts);
       /**
        * Pegando posição máxima
-       * TODO - Validar forma de finalizar
-       *        coleta do último aeroporto.
-       *        Mesmo está pegando o máx com base na núvem
-       *        mais distante.
        */
       const max = Math.max.apply(null, counts);
       /**

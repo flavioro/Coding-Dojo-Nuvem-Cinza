@@ -56,7 +56,13 @@ class ResolutionService {
      * Quando a nuvem encontrará todos os airports
      */
 
-    const { min, max } = airportService.execute(area, drawMap, lines, columns);
+    const { min, max } = airportService.execute(
+      area,
+      drawMap,
+      lines,
+      columns,
+      airports,
+    );
 
     return { min, max, drawMap };
   }
